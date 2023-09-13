@@ -1,0 +1,17 @@
+.header .button-container button:hover{
+    opacity: .9;
+    transition: all ease-in-out .5s;
+    color: #7d868d;
+}
+.header .row.header-container button:hover,.b-c button:hover{
+    background-color: #ff9bdb;
+    color: #f3f4f9;
+    transition: all ease-in-out .3s;
+
+}
+i:hover{
+    color: #ff9bdb;
+    border-color: #ff9bdb;
+    cursor: pointer;
+    transition: all ease-in-out .5s;
+}

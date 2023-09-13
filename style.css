@@ -1,0 +1,322 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.header {
+    min-height: 719px;
+    background-image: url("./huddle-landing-page-with-alternating-feature-blocks-master/images/bg-hero-desktop.svg");
+    background-color: #edfbfe;
+    padding: 1px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header .svg-container img,
+.second-svg {
+    width: 100%;
+    display: none;
+}
+
+.row.logo-container {
+    margin-top: 57px;
+}
+
+.header h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #15292d;
+    font-size: 3rem;
+    letter-spacing: 0.4px;
+    margin-left: 4px;
+    font-weight: bolder;
+    margin-left: 12px;
+
+}
+
+.logo-image {
+    overflow: hidden;
+    width: 3rem;
+}
+
+.logo-parent {
+    display: flex;
+    align-items: center;
+}
+
+.header h1 span {
+    margin-left: -10px;
+    padding: 0;
+    letter-spacing: 0;
+}
+
+.header .button-container button {
+    width: 200px;
+    height: 49px;
+    background: white;
+    border: none;
+    border-radius: 2rem;
+    color: #1d3a40;
+    font-weight: bold;
+    box-shadow: 5px 8px 5px 0px rgba(0, 0, 0, 0.13);
+    -webkit-box-shadow: 5px 8px 5px 0px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 5px 8px 5px 0px rgba(0, 0, 0, 0.13);
+}
+
+.button-container {
+    display: flex;
+    justify-content: end;
+}
+
+.row.header-container {
+    align-items: center;
+    margin-top: 53px;
+}
+
+.header h2 {
+    max-width: 436px;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 53px;
+}
+
+.header p {
+    max-width: 512px;
+    font-size: 17.7px;
+    color: #263f44;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 31px;
+}
+
+.header .row.header-container button,
+.start button {
+    background: #ff52be;
+    color: white;
+    border: 0px solid;
+    min-width: 280px;
+    height: 55px;
+    border-radius: 2rem;
+    font-weight: bold;
+    box-shadow: 5px 8px 5px -4px rgba(254, 82, 192, 0.39);
+    -webkit-box-shadow: 5px 8px 5px -4px rgba(254, 82, 192, 0.39);
+    -moz-box-shadow: 5px 8px 5px -4px rgba(254, 82, 192, 0.39);
+    margin-top: 15px;
+}
+
+@media (max-width:767px) {
+
+    div#first-card .row.card-row,
+    div#third-card .row.card-row {
+        flex-direction: column-reverse;
+    }
+
+    .row.card-row .col-md-6:nth-of-type(1) {
+        margin: 3rem 0px;
+    }
+
+    .header {
+        background-image: url("./huddle-landing-page-with-alternating-feature-blocks-master/images/bg-hero-mobile.svg");
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .row.header-container {
+        text-align: center;
+    }
+
+    .header h2 {
+        font-size: 32px;
+        margin: auto;
+    }
+
+    .svg-container {
+        margin-top: 107px;
+    }
+
+    .header .row.header-container button {
+        margin-bottom: 73px;
+    }
+
+    .header p {
+
+        font-weight: 100;
+
+    }
+
+    .header svg {
+        display: none;
+    }
+
+    .header .svg-container img,
+    .second-svg {
+        display: inline;
+        width: 100%;
+    }
+
+    svg#conversition {
+        display: none;
+    }
+}
+
+
+
+div.c-card {
+    margin-top: 175px;
+    box-shadow: 0px -1px 5px 4px rgba(247, 247, 247, 0.66);
+    -webkit-box-shadow: 0px -1px 5px 4px rgba(247, 247, 247, 0.66);
+    -moz-box-shadow: 0px -1px 5px 4px rgba(247, 247, 247, 0.66);
+    background-color: white;
+    max-width: 1263px;
+
+}
+
+div.first-card h3,
+div.second-card h3,
+div#third-card .row.card-row h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #00262d;
+    font-size: 29px;
+
+}
+
+div.first-card p,
+div.second-card p,
+div#third-card .row.card-row p {
+    max-width: 480px;
+    font-size: 17px;
+    color: #878c90;
+    margin-top: 11px;
+
+}
+
+.card-row {
+    padding-left: 6%;
+}
+
+.second-card img,
+.third-card img {
+    width: 100%;
+    max-width: 421px;
+}
+
+.row.card-row {
+    min-height: 441px;
+}
+
+.start h5 {
+    max-width: 538px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #15292d;
+    text-align: center;
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+}
+
+.b-c {
+    display: flex;
+    justify-content: center;
+}
+
+.b-c button {
+    width: 400px;
+}
+
+.container.start-button-container {
+    max-width: 800px;
+    margin-top: 157px;
+    box-shadow: 0px -1px 5px 4px rgba(247, 247, 247, 0.66);
+    -webkit-box-shadow: 0px -4px 0px 1px rgba(245, 247, 247, 29.66);
+    -moz-box-shadow: 0px -1px 5px 4px rgba(247, 247, 247, 0.66);
+    min-height: 284px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 74px;
+    background: white;
+    border-radius: 1rem;
+}
+
+.footer {
+    background: #00252e;
+    min-height: 560px;
+    color: white;
+}
+
+.footer .container {
+    padding: 1px;
+}
+
+.footer .container .row {
+    margin-top: 176px;
+}
+
+ ul {
+    list-style: none;
+}
+
+.footer .row .col-lg-3:nth-of-type(1) ul li:nth-of-type(1) {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.footer .row .col-lg-3:nth-of-type(1) ul li:nth-of-type(2) {
+    margin-top: 2rem;
+    display: flex;
+}
+
+.footer .row .col-lg-3:nth-of-type(1) ul li:nth-of-type(2) img {
+    max-width: 1rem;
+    max-height: 1rem;
+    margin-top: .5rem;
+    margin-right: .5rem;
+}
+
+.footer .row .col-lg-3:nth-of-type(1) ul li:nth-of-type(2) p {
+    font-size: 11px;
+}
+.footer .row .col-lg-3:nth-of-type(1) ul li:nth-of-type(3){
+    font-size: 11px;
+    margin-top: .5rem;
+}
+.footer .row .col-lg-3:nth-of-type(1) ul li:nth-of-type(4){
+    font-size: 11px;
+    margin-top: .5rem;
+}
+.footer .row .col-lg-3:nth-of-type(2) ul ,.footer .row .col-lg-3:nth-of-type(3) ul{
+    margin-top: 5rem;
+    line-height: 42px;
+}
+i {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.footer .row .col-lg-3:nth-of-type(4) span  {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 7rem;
+}
+footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
