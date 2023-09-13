@@ -411,3 +411,11 @@ div#third-card .second-section{
     position: relative;
     animation: up-down 5s ease-in-out infinite;
 }
+@media (max-width:767px) {
+    .header h2{
+        animation-delay: 1s;
+    }
+    .header p{
+        animation-delay: 1s;
+    }
+}
