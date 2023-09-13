@@ -129,6 +129,7 @@ body {
 
     .row.header-container {
         text-align: center;
+        flex-direction: column-reverse;
     }
 
     .header h2 {
