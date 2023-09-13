@@ -1,0 +1,413 @@
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        top: 40px;
+    }
+
+    to {
+        opacity: 1;
+        top: 0px;
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0)
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1)
+    }
+}
+
+@keyframes fadeToRright {
+    from {
+        opacity: 0;
+        left: -100px;
+    }
+
+    to {
+        opacity: 1;
+        left: 0px;
+    }
+
+}
+
+@keyframes fadeToLeft {
+    from {
+        opacity: 0;
+        left: 100px;
+    }
+
+    to {
+        opacity: 1;
+        left: 0px;
+    }
+
+}
+
+@keyframes cloud {
+    from {
+        opacity: 0;
+        transform: scale(0)
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(.4)
+    }
+}
+
+.logo-image.zoom-in {
+    animation: zoomIn 1s ease-in-out forwards;
+
+}
+
+span.fade-up {
+    display: inline-block;
+    position: relative;
+    opacity: 0;
+}
+
+span.fade-up:nth-of-type(1) {
+
+    animation: fadeUp .6s ease-in-out forwards;
+    animation-delay: .2s;
+
+}
+
+span.fade-up:nth-of-type(2) {
+    display: inline-block;
+    position: relative;
+    animation: fadeUp .6s ease-in-out forwards;
+    animation-delay: .4s;
+}
+
+span.fade-up:nth-of-type(3) {
+    display: inline-block;
+    position: relative;
+    animation: fadeUp .6s ease-in-out forwards;
+    animation-delay: .6s;
+}
+
+span.fade-up:nth-of-type(4) {
+    display: inline-block;
+    position: relative;
+    animation: fadeUp .6s ease-in-out forwards;
+    animation-delay: .8s;
+}
+
+span.fade-up:nth-of-type(5) {
+    display: inline-block;
+    position: relative;
+    animation: fadeUp .6s ease-in-out forwards;
+    animation-delay: 1s;
+}
+
+span.fade-up:nth-of-type(6) {
+    display: inline-block;
+    position: relative;
+    animation: fadeUp .6s ease-in-out forwards;
+    animation-delay: 1.2s;
+}
+
+.col-6.button-container button {
+    opacity: 0;
+    animation: zoomIn 1s ease-in-out forwards;
+    animation-delay: 1.2s;
+}
+
+/* first svg animations */
+.header svg {
+    opacity: 0;
+    animation: fadeUp .6s ease-in-out forwards;
+    animation-delay: 1.4s;
+    ;
+
+}
+
+@keyframes first-rect-animation {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 12.5rem;
+    }
+}
+
+@keyframes second-rect-animation {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 115px;
+    }
+}
+
+@keyframes third-rect-animation {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 400px;
+    }
+}
+
+@keyframes fourth-rect-animation {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 366px;
+    }
+}
+
+@keyframes five-rect-animation {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 333.333px;
+    }
+}
+
+.col-md-6.svg-container rect.first-rect {
+    width: 0px;
+    animation: first-rect-animation .7s ease forwards;
+    animation-delay: 2s;
+
+}
+
+.col-md-6.svg-container rect.second-rect {
+    width: 0px;
+    animation: second-rect-animation .7s ease forwards;
+    animation-delay: 2.2s;
+
+}
+
+.col-md-6.svg-container rect.third-rect {
+    width: 0px;
+    animation: third-rect-animation .7s ease forwards;
+    animation-delay: 2.4s;
+}
+
+.col-md-6.svg-container rect.fourth-rect {
+    width: 0px;
+    animation: fourth-rect-animation .7s ease forwards;
+    animation-delay: 2.6s;
+}
+
+.col-md-6.svg-container rect.five-rect {
+    width: 0px;
+    animation: five-rect-animation .7s ease forwards;
+    animation-delay: 2.8s;
+}
+
+.col-md-6.svg-container circle.first-circle {
+    transform: scale(0);
+    animation: zoomIn .7s ease-in-out forwards;
+    animation-delay: 1.8s;
+
+}
+
+.col-md-6.svg-container circle.second-circle {
+    transform: scale(0);
+    animation: zoomIn .7s ease-in-out forwards;
+    animation-delay: 2.9s;
+}
+
+.col-md-6.svg-container rect.t-o {
+    width: 0px;
+    animation: second-rect-animation .7s ease forwards;
+    animation-delay: 3.2s;
+}
+
+.col-md-6.svg-container rect.t-t {
+    width: 0px;
+    animation: third-rect-animation .7s ease forwards;
+    animation-delay: 3.4s;
+}
+
+.col-md-6.svg-container rect.ttt {
+    width: 0px;
+    animation: fourth-rect-animation .7s ease forwards;
+    animation-delay: 3.6s;
+
+}
+
+.col-md-6.svg-container rect.t-5 {
+    width: 0px;
+    animation: five-rect-animation .7s ease forwards;
+    animation-delay: 3.8s;
+}
+
+.col-md-6.svg-container circle.third-circle {
+    transform: scale(0);
+    animation: zoomIn .7s ease-in-out forwards;
+    animation-delay: 4s;
+}
+
+.col-md-6.svg-container rect.f-o {
+    width: 0px;
+    animation: second-rect-animation .7s ease forwards;
+    animation-delay: 4.2s;
+}
+
+.col-md-6.svg-container rect.f-t {
+    width: 0px;
+    animation: third-rect-animation .7s ease forwards;
+    animation-delay: 4.4s;
+}
+
+.col-md-6.svg-container rect.fff {
+    width: 0px;
+    animation: fourth-rect-animation .7s ease forwards;
+    animation-delay: 4.6s;
+
+}
+
+.col-md-6.svg-container rect.f-5 {
+    width: 0px;
+    animation: five-rect-animation .7s ease forwards;
+    animation-delay: 4.8s;
+}
+
+.col-md-6.svg-container circle {
+    transform: scale(0);
+    animation: zoomIn .7s ease-in-out forwards;
+    animation-delay: 5s;
+}
+
+.header h2 {
+    opacity: 0;
+    position: relative;
+    animation: fadeUp .7s ease-in 4s forwards;
+    display: inline-block;
+}
+
+.header p {
+    opacity: 0;
+    position: relative;
+    animation: fadeUp .7s ease-in 4.1s forwards;
+    display: inline-block;
+}
+
+.header .row.header-container button {
+    opacity: 0;
+    position: relative;
+    animation: zoomIn .7s ease-in 4.1s forwards;
+    display: inline-block;
+}
+
+@keyframes up-down {
+    1% {
+        top: 0rem;
+    }
+
+    50% {
+        top: -3rem;
+    }
+
+    100% {
+        top: 0rem;
+    }
+}
+
+.col-md-6.second-svg-container.animate {
+    position: relative;
+    animation: up-down 5s ease-in-out infinite;
+}
+
+#conversition {
+    opacity: 0;
+}
+
+.animate #conversition {
+    position: relative;
+    opacity: 0;
+    animation: fadeToLeft 1s ease-in-out forwards;
+}
+
+.animate g.svg-man {
+    opacity: 0;
+    position: relative;
+    animation: fadeToRright 1s ease-in-out forwards;
+    animation-delay: 2.2s;
+
+}
+
+.animate g.svg-woman {
+    opacity: 0;
+    position: relative;
+    animation: fadeToRright 1s ease-in-out forwards;
+    animation-delay: 2s;
+
+}
+
+.animate g.cloud {
+    opacity: 0;
+    animation: cloud 1s ease-in-out forwards;
+    animation-delay: 1s;
+
+}
+
+.animate .second-svg-container,div#second-card .col-md-6:nth-of-type(1),.col-md-6.svg-container {
+    position: relative;
+    animation: up-down 5s ease-in-out infinite;
+
+}
+
+.animate.first-card h3,.animate.second-card h3 {
+    position: relative;
+    animation: fadeUp .7s ease-in-out forwards;
+}
+
+.animate.first-card p,.animate.second-card p {
+    position: relative;
+    animation: fadeUp .6s ease-in-out forwards;
+    animation-delay: .5s;
+}
+
+div.first-card p,
+div.first-card h3,
+div.second-card p,
+div.second-card h3 {
+    opacity: 0;
+}
+
+div#second-card .row.card-row {
+    opacity: 0;
+}
+
+div#second-card.animate .row.card-row {
+    opacity: 1;
+}
+
+div#second-card.animate .row.card-row img{
+    animation: zoomIn 2s ease forwards;
+}
+div#third-card .first-section,div#third-card .second-section img{
+    opacity: 0;
+}
+div#third-card.animate .first-section{
+    position: relative;
+    animation: fadeToRright 1.5s ease forwards ;
+   
+}
+div#third-card.animate .second-section img{
+    position: relative;
+    animation: fadeToLeft 1.5s ease forwards ;
+   
+}
+div#third-card .second-section{
+    
+    position: relative;
+    animation: up-down 5s ease-in-out infinite;
+}
